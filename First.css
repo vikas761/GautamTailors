@@ -1,0 +1,236 @@
+body {font-family: "Times New Roman", Georgia, Serif;}
+        h1, h2, h3, h4, h5, h6 {
+          font-family: "Playfair Display";
+          letter-spacing: 3px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.site-logo{
+  width: 30%;
+  height: 2%;
+}
+nav{
+  background: black;
+  height: 80px;
+  width: 100%;
+}
+                                              
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px; 
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: rgb(216, 253, 2);
+  font-size: 17px;
+  padding: 7px 13px;
+  background-color: rgba(0, 255, 115, 0.363);
+  border: 2px solid rgb(17, 0, 255);
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+a.active,a:hover{
+  background-color: rgb(187, 255, 0);
+  transition: .9s;
+  color: #1a1a1a;
+}
+section{
+  background: url(alterations-in-canada.avif) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: oblique;
+  color: black;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 255, 55), 0 0 5px rgb(118, 139, 0);
+  transition: 1s;
+}
+.centered:hover{
+  color: whitesmoke;
+  text-shadow: 1px 1px 8px black, 0 0 30px rgb(255, 0, 0), 0 0 5px rgb(241, 225, 3);
+  font-style: oblique;
+  transition: 1s;
+
+}
+div.about{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 800px;
+  top: 700px;
+  width: 500px;
+}
+
+.Acenter{
+  margin: auto;
+  width: 41%;
+  padding: 10px;
+}
+.Acenter1{
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+div.Services{
+  position: absolute;
+  left: 800px;
+  top: 1250px;
+  width: 500px;
+}
+
+.Scenter{
+  margin: auto;
+  width: 41%;
+  padding: 10px;
+}
+.Scenter1{
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+.ContCenter{
+  font-size: 45px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #0099ff;
+  color: rgb(49, 45, 45);
+  padding: 9px 50px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 365px;
+  top: 310px; 
+}
+
+input[type=submit]:hover {
+  background-color: #ffe600;
+  color: rgb(7, 7, 7);  
+  transition: 0s;
+}
+
+
+.cont {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 100px;
+}
+
+.cont {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  position: absolute;
+  left: 225px;
+  top: 1850px;
+}
+.h3{
+  margin-top: 0%;
+  text-align: center;
+  font-size: 45px;
+  
+}
+
+.Pcenter{
+  margin-top: 0%;
+  text-align: center;
+  font-size: 45px;
+  text-align: center;
+  
+}
+
+div.p1{
+  position: absolute;
+  right: 37%;
+}
+
+.h1{
+  text-align: center;
+}
+.h5{
+  position: absolute;
+  top: 200px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: white;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 450%;
+}
+.foot{
+  text-align: right;
+}
+.contact{
+  position: absolute;
+  right: 10%;
+}
+
+@media only screen and (max-width: 600px){
+  .Acenter{
+    text-align: center;
+  }
+  .nav ul li a{
+    width: 100%;
+    display: block;
+    float: none;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 600px){ 
+  body{
+    text-align: center;
+  }
+}
+
+
+/* min-width: 1920
+
+1200 - 1919 //medium devices = laptop
+
+768 - 1199 // tablet - 768 - 991 - 992 -1199
+
+max-width: 767  //mobile - 375 --> */
